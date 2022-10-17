@@ -46,5 +46,5 @@ RUN \
 	/var/tmp/*
 
 COPY ./config /config
-
+EXPOSE 9117
 CMD exec /app/Jackett/jackett --NoRestart --NoUpdates -p $PORT
