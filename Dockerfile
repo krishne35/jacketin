@@ -47,4 +47,4 @@ RUN \
 
 COPY ./config /config
 EXPOSE 9117
-CMD exec /app/Jackett/jackett --NoRestart --NoUpdates -p $PORT
+CMD exec /app/Jackett/jackett --NoRestart --NoUpdates -p 9117
