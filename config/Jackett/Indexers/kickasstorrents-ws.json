@@ -15,7 +15,7 @@
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Exception (kickasstorrents-ws): Connection reset by peer: The SSL connection could not be established, see inner exception."
+    "value": null
   },
   {
     "id": "sortrequestedfromsite",
