@@ -9,7 +9,7 @@
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "__ddg1=Se8odiso9Xr7lUJ89hsk; __ddg1_=vK6566cwn0IMZMsQm89X"
+    "value": "__ddg1=Se8odiso9Xr7lUJ89hsk"
   },
   {
     "id": "lasterror",
@@ -80,11 +80,5 @@
       "desc": "desc",
       "asc": "asc"
     }
-  },
-  {
-    "id": "tags",
-    "type": "inputtags",
-    "name": "Tags",
-    "value": ""
   }
 ]

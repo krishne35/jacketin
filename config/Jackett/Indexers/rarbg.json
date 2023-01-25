@@ -18,6 +18,12 @@
     "value": null
   },
   {
+    "id": "apiurl",
+    "type": "inputstring",
+    "name": "API URL",
+    "value": "https://torrentapi.org/pubapi_v2.php"
+  },
+  {
     "id": "sortrequestedfromsite",
     "type": "inputselect",
     "name": "Sort requested from site",
@@ -27,5 +33,11 @@
       "seeders": "seeders",
       "leechers": "leechers"
     }
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
   }
 ]

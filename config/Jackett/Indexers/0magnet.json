@@ -3,13 +3,13 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://asnet.pw/"
+    "value": "https://0magnet.com/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "PHPSESSID=vrd83pjupd8l5abc1pkhss1081"
+    "value": "laravel_session=pfqa2h7989c7lick0pe98p3f07"
   },
   {
     "id": "lasterror",

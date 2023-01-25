@@ -3,13 +3,13 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://sukebei.nyaa.si/"
+    "value": "https://badasstorrents.com/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": ""
+    "value": "PHPSESSID=76fag30lfbcbjmip7u39ff531c; cf_clearance=ayQwrNRhxvDQzVko_wXIagfDBZKjQ35qrekXZyhK0vU-1674609419-0-160; cf_chl_2=926716b82231604"
   },
   {
     "id": "lasterror",
@@ -18,32 +18,35 @@
     "value": null
   },
   {
-    "id": "category",
+    "id": "downloadlink",
     "type": "inputselect",
-    "name": "Category",
-    "value": "0_0",
+    "name": "Download link",
+    "value": "magnet:?xt=",
     "options": {
-      "0_0": "All categories",
-      "1_0": "Art",
-      "1_1": "Art - Anime",
-      "1_2": "Art - Doujinshi",
-      "1_3": "Art - Games",
-      "1_4": "Art - Manga",
-      "1_5": "Art - Pictures",
-      "2_0": "Real Life",
-      "2_1": "Real Life - Photobooks and Pictures",
-      "2_2": "Real Life - Videos"
+      "/download/": ".torrent",
+      "magnet:?xt=": "magnet"
+    }
+  },
+  {
+    "id": "downloadlink(fallback)",
+    "type": "inputselect",
+    "name": "Download link (fallback)",
+    "value": "/download/",
+    "options": {
+      "/download/": ".torrent",
+      "magnet:?xt=": "magnet"
     }
   },
   {
     "id": "sortrequestedfromsite",
     "type": "inputselect",
     "name": "Sort requested from site",
-    "value": "id",
+    "value": "date",
     "options": {
-      "id": "created",
-      "seeders": "seeders",
-      "size": "size"
+      "date": "created",
+      "seeds": "seeders",
+      "size": "size",
+      "title": "title"
     }
   },
   {

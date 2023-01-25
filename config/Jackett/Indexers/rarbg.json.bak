@@ -3,39 +3,35 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://kickasstorrents.to/"
+    "value": "https://rarbg.to/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "PHPSESSID=5m2dlv0ooj34fj17l35k0k0820"
+    "value": "__cfduid=db22ce3153a8c0dda39f0dd9eda9a97351611132563"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": "Test search in RARBG => Found no results while trying to browse this tracker"
+  },
+  {
+    "id": "apiurl",
+    "type": "inputstring",
+    "name": "API URL",
+    "value": "https://torrentapi.org/pubapi_v2.php"
   },
   {
     "id": "sortrequestedfromsite",
     "type": "inputselect",
     "name": "Sort requested from site",
-    "value": "time",
+    "value": "last",
     "options": {
-      "time": "created",
+      "last": "created",
       "seeders": "seeders",
-      "size": "size"
-    }
-  },
-  {
-    "id": "orderrequestedfromsite",
-    "type": "inputselect",
-    "name": "Order requested from site",
-    "value": "desc",
-    "options": {
-      "desc": "desc",
-      "asc": "asc"
+      "leechers": "leechers"
     }
   },
   {

@@ -9,7 +9,7 @@
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "__cfduid=dc208f003e33733ad40b26ea2d86edb361611132470"
+    "value": "__cfduid=dc208f003e33733ad40b26ea2d86edb361611132470; PHPSESSID=e8553o22fpb336vf8jegsdnbl7"
   },
   {
     "id": "lasterror",
@@ -26,5 +26,21 @@
       "http://itorrents.org/": "iTorrents.org",
       "magnet:": "magnet"
     }
+  },
+  {
+    "id": "downloadlink(fallback)",
+    "type": "inputselect",
+    "name": "Download link (fallback)",
+    "value": "http://itorrents.org/",
+    "options": {
+      "http://itorrents.org/": "iTorrents.org",
+      "magnet:": "magnet"
+    }
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
   }
 ]

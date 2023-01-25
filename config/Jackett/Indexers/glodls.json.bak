@@ -3,39 +3,46 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://zooqle.unblockit.ltd/"
+    "value": "https://glodls.to/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "__cfduid=de8a3e4c603401957e78e74ac2238d04e1611132585"
+    "value": "Guest=s4pmljobg6mctglc3p8u1c30h1; lang=0; pass=deleted; uid=deleted"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": "Test search in GloDLS => Found no results while trying to browse this tracker"
   },
   {
     "id": "sortrequestedfromsite",
     "type": "inputselect",
     "name": "Sort requested from site",
-    "value": "dt",
+    "value": "id",
     "options": {
-      "dt": "created",
-      "ns": "seeders",
-      "sz": "size"
+      "id": "created",
+      "seeders": "seeders",
+      "size": "size",
+      "name": "title"
     }
   },
   {
     "id": "orderrequestedfromsite",
     "type": "inputselect",
     "name": "Order requested from site",
-    "value": "d",
+    "value": "desc",
     "options": {
-      "d": "desc",
-      "a": "asc"
+      "desc": "desc",
+      "asc": "asc"
     }
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
   }
 ]

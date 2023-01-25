@@ -3,13 +3,13 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://kickasstorrents.to/"
+    "value": "https://solidtorrents.to/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "PHPSESSID=5m2dlv0ooj34fj17l35k0k0820"
+    "value": null
   },
   {
     "id": "lasterror",
@@ -21,9 +21,9 @@
     "id": "sortrequestedfromsite",
     "type": "inputselect",
     "name": "Sort requested from site",
-    "value": "time",
+    "value": "date",
     "options": {
-      "time": "created",
+      "date": "created",
       "seeders": "seeders",
       "size": "size"
     }

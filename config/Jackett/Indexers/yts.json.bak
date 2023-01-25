@@ -3,19 +3,19 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://asnet.pw/"
+    "value": "https://yts.mx/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "PHPSESSID=vrd83pjupd8l5abc1pkhss1081"
+    "value": "PHPSESSID=flhsseobp5rar6prmvbui13igt"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": ""
   },
   {
     "id": "tags",
