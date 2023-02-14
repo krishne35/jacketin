@@ -1,7 +1,7 @@
 {
   "Port": 9117,
   "AllowExternal": true,
-  "AllowCORS": tre,
+  "AllowCORS": true,
   "APIKey": "x5cnka9wilh8th75redqph26h522l4l6",
   "AdminPassword": "c8297748365e90382d7177dfc83d09f734fef9daa8926b32b2da4c1ceca41c88d3a74aaf05141b2ac2515c3b4b2318db9d86463e840f8e144c1fbe685af50b18",
   "InstanceId": "meb3y30lb0gfebxs2vvmpjww160l65c5t47j1sxadaay0ytu40pew0w7ctiisl3j",
