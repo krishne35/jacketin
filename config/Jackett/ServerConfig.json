@@ -13,7 +13,7 @@
   "CacheEnabled": true,
   "CacheTtl": 2100,
   "CacheMaxResultsPerIndexer": 1000,
-  "FlareSolverrUrl": "https://flaresolverr.krishne.online/",
+  "FlareSolverrUrl": "",
   "FlareSolverrMaxTimeout": 55000,
   "OmdbApiKey": "",
   "OmdbApiUrl": "",
