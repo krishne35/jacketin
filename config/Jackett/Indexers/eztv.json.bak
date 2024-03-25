@@ -3,13 +3,13 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://ytsmx.gconsolegan.workers.dev/"
+    "value": "https://eztv.gconsolegan.workers.dev/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "PHPSESSID=4umgdt4nkiglatk9ku6e3a7mhm"
+    "value": null
   },
   {
     "id": "lasterror",

@@ -3,13 +3,13 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://badasstorrents.com/"
+    "value": "https://limetor.gconsolegan.workers.dev/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "PHPSESSID=qbvpkv15903klnpr83ueaoqsjb; cf_clearance=eGUI.H6Gx86EkQuZilIDjSiFQuVKZIJdO9uLK7FVdwU-1674613734-0-160; cf_chl_2=2bf6a5595e0fb79"
+    "value": "PHPSESSID=oscjasgrtqcgp1hh99uu6fubv6; _ga=GA1.1.635726413.1710315923; _gat_gtag_UA_124169196_1=1; _ga_G7T69NTZLT=GS1.1.1710315923.1.0.1710315923.0.0.0; _gid=GA1.3.1435914299.1710315923"
   },
   {
     "id": "lasterror",
@@ -21,20 +21,20 @@
     "id": "downloadlink",
     "type": "inputselect",
     "name": "Download link",
-    "value": "magnet:?xt=",
+    "value": "magnet:",
     "options": {
-      "/download/": ".torrent",
-      "magnet:?xt=": "magnet"
+      "http://itorrents.org/": "iTorrents.org",
+      "magnet:": "magnet"
     }
   },
   {
     "id": "downloadlink(fallback)",
     "type": "inputselect",
     "name": "Download link (fallback)",
-    "value": "/download/",
+    "value": "http://itorrents.org/",
     "options": {
-      "/download/": ".torrent",
-      "magnet:?xt=": "magnet"
+      "http://itorrents.org/": "iTorrents.org",
+      "magnet:": "magnet"
     }
   },
   {
@@ -45,18 +45,7 @@
     "options": {
       "date": "created",
       "seeds": "seeders",
-      "size": "size",
-      "title": "title"
-    }
-  },
-  {
-    "id": "orderrequestedfromsite",
-    "type": "inputselect",
-    "name": "Order requested from site",
-    "value": "desc",
-    "options": {
-      "desc": "desc",
-      "asc": "asc"
+      "size": "size"
     }
   },
   {

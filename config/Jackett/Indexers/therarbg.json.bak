@@ -3,13 +3,13 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://glodls.gconsolegan.workers.dev/"
+    "value": "https://therarbg.to/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "Guest=e795b533fd3hqpc43o28k24467; lang=0; pass=deleted; uid=deleted"
+    "value": null
   },
   {
     "id": "lasterror",
@@ -21,22 +21,14 @@
     "id": "sortrequestedfromsite",
     "type": "inputselect",
     "name": "Sort requested from site",
-    "value": "id",
+    "value": "-a",
     "options": {
-      "id": "created",
-      "seeders": "seeders",
-      "size": "size",
-      "name": "title"
-    }
-  },
-  {
-    "id": "orderrequestedfromsite",
-    "type": "inputselect",
-    "name": "Order requested from site",
-    "value": "desc",
-    "options": {
-      "desc": "desc",
-      "asc": "asc"
+      "-a": "created desc",
+      "a": "created asc",
+      "-se": "seeders desc",
+      "se": "seeders asc",
+      "-s": "size desc",
+      "s": "size asc"
     }
   },
   {

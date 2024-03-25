@@ -3,19 +3,33 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://ytsmx.gconsolegan.workers.dev/"
+    "value": "https://therarbg.to/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "PHPSESSID=4umgdt4nkiglatk9ku6e3a7mhm"
+    "value": ""
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
     "value": null
+  },
+  {
+    "id": "sortrequestedfromsite",
+    "type": "inputselect",
+    "name": "Sort requested from site",
+    "value": "-a",
+    "options": {
+      "-a": "created desc",
+      "a": "created asc",
+      "-se": "seeders desc",
+      "se": "seeders asc",
+      "-s": "size desc",
+      "s": "size asc"
+    }
   },
   {
     "id": "tags",

@@ -15,7 +15,7 @@
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": "Exception (nyaasi): Request to https://nyaa.gconsolegan.workers.dev/?f=0&c=0_0&s=id&o=desc failed (Error BadGateway) - The tracker seems to be down.: Request to https://nyaa.gconsolegan.workers.dev/?f=0&c=0_0&s=id&o=desc failed (Error BadGateway) - The tracker seems to be down."
   },
   {
     "id": "prefermagnetlinks",
@@ -27,12 +27,6 @@
     "id": "improvesonarrcompatibilitybytryingtoaddseasoninformationintoreleasetitles",
     "type": "inputbool",
     "name": "Improve Sonarr compatibility by trying to add Season information into Release Titles",
-    "value": false
-  },
-  {
-    "id": "removefirstseasonkeywords(s1/s01/season1),assomeresultsdonotincludethisforfirst/singleseasonreleases",
-    "type": "inputbool",
-    "name": "Remove first season keywords (S1/S01/Season 1), as some results do not include this for first/single season releases",
     "value": false
   },
   {

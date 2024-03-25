@@ -1,0 +1,84 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://www.torrentleech.cc/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "PHPSESSID=7evi72a8ckm6lnqmer6aatfomf; tluid=1745412; tlpass=ef636c669418e4df759cc7636c449b08a037b4e7; s__pvt=1; s__nrd=1; s__ipv=1; s__pia=1; s__ppn=1; s__vhb=1; lastBrowse1=1711360792; lastBrowse2=1711361195"
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": null
+  },
+  {
+    "id": "username",
+    "type": "inputstring",
+    "name": "Username",
+    "value": "aghga"
+  },
+  {
+    "id": "password",
+    "type": "inputstring",
+    "name": "Password",
+    "value": "CfDJ8GiSqzy5GExPglDnq2R4UwXIAYdY_zVwHL4X9Vtz1XdvQhO1B8ejmkkiU7nUCQtAnfTNltuqM-pMJf-kqAOnKXkxoOzi4o83b57c6GCmdP_CXFVRKq5nEap_USdRHcXprg"
+  },
+  {
+    "id": "alt2fatoken",
+    "type": "inputstring",
+    "name": "Alt 2FA Token",
+    "value": ""
+  },
+  {
+    "id": "searchfreeleechonly",
+    "type": "inputbool",
+    "name": "Search freeleech only",
+    "value": false
+  },
+  {
+    "id": "excludescenetorrentsfromresults",
+    "type": "inputbool",
+    "name": "Exclude SCENE torrents from results",
+    "value": false
+  },
+  {
+    "id": "excludetorrentswiththetagrarfromresults(doesnotsupportimdbidsearch)",
+    "type": "inputbool",
+    "name": "Exclude torrents with the tag RAR from results (does not support IMDBID search)",
+    "value": false
+  },
+  {
+    "id": "sortrequestedfromsite",
+    "type": "inputselect",
+    "name": "Sort requested from site",
+    "value": "added",
+    "options": {
+      "added": "created",
+      "seeders": "seeders",
+      "size": "size",
+      "nameSort": "title"
+    }
+  },
+  {
+    "id": "orderrequestedfromsite",
+    "type": "inputselect",
+    "name": "Order requested from site",
+    "value": "desc",
+    "options": {
+      "desc": "desc",
+      "asc": "asc"
+    }
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]

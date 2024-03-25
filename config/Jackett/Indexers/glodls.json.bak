@@ -3,29 +3,30 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://kickass.gconsolegan.workers.dev/"
+    "value": "https://glodls.gconsolegan.workers.dev/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "PHPSESSID=fimoumcrq12jdse2ug553l5u66; _ym_isad=2; _ym_d=1708237908; _ym_uid=1708237908681716948; cf_clearance=806hUJ1Cm2RdBGCYIIKDtri6.ruBDtTJNRo.bMaNHGc-1708237901-1.0-AXEUkksX/9qjV0Qb1O5jHHvmZ0qOLaw45NgmM+EoHD3m+Gqv3STJ9GEVy9Oc7o0H/KthdyVJDle9IxdiEYrFbkQ=; cf_chl_2=8d2fb4398346e57; cf_chl_rc_m=1; cf_chl_3=d01abbf22c7ff5d"
+    "value": "Guest=e795b533fd3hqpc43o28k24467; lang=0; pass=deleted; uid=deleted"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": "Test search in GloDLS => Found no results while trying to browse this tracker. This may be an issue with the indexer, or other indexer settings such as search freeleech only etc."
   },
   {
     "id": "sortrequestedfromsite",
     "type": "inputselect",
     "name": "Sort requested from site",
-    "value": "time",
+    "value": "id",
     "options": {
-      "time": "created",
+      "id": "created",
       "seeders": "seeders",
-      "size": "size"
+      "size": "size",
+      "name": "title"
     }
   },
   {

@@ -3,13 +3,13 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://0magnet.com/"
+    "value": "https://subsplease.org/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "laravel_session=pfqa2h7989c7lick0pe98p3f07"
+    "value": ""
   },
   {
     "id": "lasterror",
