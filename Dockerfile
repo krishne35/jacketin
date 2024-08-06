@@ -44,5 +44,6 @@ RUN \
 # add local files
 # ports and volumes
 COPY ./config /config
+VOLUME /config
 EXPOSE 9117
 CMD exec /app/Jackett/jackett --NoRestart --NoUpdates -p 9117
