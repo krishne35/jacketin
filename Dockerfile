@@ -42,7 +42,7 @@ RUN \
     /tmp/*
 
 # add local files
-COPY ./config /config
+COPY ./config /root/.config
 # ports and volumes
 
 
