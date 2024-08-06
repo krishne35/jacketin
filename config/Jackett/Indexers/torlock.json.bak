@@ -3,7 +3,7 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://torlock.unblockit.dad/"
+    "value": "https://torlock.gconsolegan.workers.dev/"
   },
   {
     "id": "cookieheader",
@@ -15,7 +15,7 @@
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": "Test search in Torlock => Found no results while trying to browse this tracker. This may be an issue with the indexer, or other indexer settings such as search freeleech only etc."
   },
   {
     "id": "sortrequestedfromsite(onlyworksforsearchwithkeywords)",

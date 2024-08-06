@@ -9,7 +9,7 @@
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "PHPSESSID=7evi72a8ckm6lnqmer6aatfomf; tluid=1745412; tlpass=ef636c669418e4df759cc7636c449b08a037b4e7; s__pvt=1; s__nrd=1; s__ipv=1; s__pia=1; s__ppn=1; s__vhb=1; lastBrowse1=1711361195; lastBrowse2=1711361516"
+    "value": "PHPSESSID=iu5u57biotoss0dlg8rubif0tq; tluid=1745412; tlpass=ef636c669418e4df759cc7636c449b08a037b4e7; s__pvt=1; s__nrd=1; lastBrowse1=1722971347; lastBrowse2=1722971944"
   },
   {
     "id": "lasterror",
@@ -27,7 +27,7 @@
     "id": "password",
     "type": "inputstring",
     "name": "Password",
-    "value": "CfDJ8GiSqzy5GExPglDnq2R4UwUFP7ec5SEO1Ac8Qb3uLcDK4kQgJrJAPrmfJ-NGUwvVRwd6aCw1uGN2fn3Wn5lOKQ6Z3YITkf_cqX5K6omtpB7KLvvJoKyBaacNWwOSFfiPzw"
+    "value": "CfDJ8CKBorPMKlBDly02lPek0EFkhYBOP-PE52BnzdQ4erf_wrKRG0PBwjQVHgmvhtACN0oOVi7IcREuEd0BmKmZ3BJM8YVz5UETgNcKLubaAyUeJrQXaJewprUt63HMXv8icg"
   },
   {
     "id": "alt2fatoken",

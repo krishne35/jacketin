@@ -3,19 +3,19 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://kickasstorrents.ninjaproxy1.com/"
+    "value": "https://kickass.gconsolegan.workers.dev/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "PHPSESSID=fimoumcrq12jdse2ug553l5u66; _ym_isad=2; _ym_d=1708237908; _ym_uid=1708237908681716948; cf_clearance=806hUJ1Cm2RdBGCYIIKDtri6.ruBDtTJNRo.bMaNHGc-1708237901-1.0-AXEUkksX/9qjV0Qb1O5jHHvmZ0qOLaw45NgmM+EoHD3m+Gqv3STJ9GEVy9Oc7o0H/KthdyVJDle9IxdiEYrFbkQ=; cf_chl_2=8d2fb4398346e57; cf_chl_rc_m=1; cf_chl_3=d01abbf22c7ff5d"
+    "value": "PHPSESSID=fimoumcrq12jdse2ug553l5u66; _ym_isad=2; _ym_d=1708237908; _ym_uid=1708237908681716948; cf_clearance=WoW7MfJZi8azcRticPlTM_g_Js28sgxm1kgItpwzsUQ-1717406883-1.0.1.1-OHfTsT95E8RXMaEAqYhVNsVGxi68mJCzY27a71ERiSPg8Ax3HcTtGxKfaZsqrIeB2KcZd7cnOgmOLsWQZ7aMFQ; cf_chl_2=8d2fb4398346e57; cf_chl_rc_m=1; cf_chl_3=186cd99a4142e31"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": "Exception (kickasstorrents-to): Connection reset by peer: The SSL connection could not be established, see inner exception."
   },
   {
     "id": "sortrequestedfromsite",

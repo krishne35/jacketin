@@ -15,7 +15,7 @@
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Test search in GloDLS => Found no results while trying to browse this tracker. This may be an issue with the indexer, or other indexer settings such as search freeleech only etc."
+    "value": "Exception (glodls): Request to https://glodls.gconsolegan.workers.dev/search_results.php?cat=0&incldead=1&inclexternal=0&lang=0&sort=id&order=desc failed (Error BadGateway) - The tracker seems to be down.: Request to https://glodls.gconsolegan.workers.dev/search_results.php?cat=0&incldead=1&inclexternal=0&lang=0&sort=id&order=desc failed (Error BadGateway) - The tracker seems to be down."
   },
   {
     "id": "sortrequestedfromsite",
