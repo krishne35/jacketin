@@ -42,8 +42,6 @@ RUN \
     /tmp/*
 
 # add local files
-COPY root/ /
-
 # ports and volumes
 COPY ./config /config
 EXPOSE 9117
